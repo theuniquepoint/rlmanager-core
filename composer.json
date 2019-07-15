@@ -17,5 +17,5 @@
 			"email" : "alex@theuniquepoint.com"
 		}
 	],
-	"minimum-stability" : "dev"
+	"minimum-stability" : "stable"
 }
