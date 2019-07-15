@@ -1,0 +1,20 @@
+{
+	"autoload" : {
+		"psr-4" : {
+			"Theuniquepoint\\Rlmanager-core\\" : "src"
+		}
+	},
+	"name" : "theuniquepoint/rlmanager-core",
+	"type" : "project",
+	"description" : "Rocket League Manager Core",
+	"license" : "GPL-3.0",
+	"require" : {
+		"php" : ">=7.2",
+		"laravel/laravel" : "~5.8"
+	},
+	"authors" : [{
+			"name" : "Alex Torregrosa",
+			"email" : "alex@theuniquepoint.com"
+		}
+	]
+}
