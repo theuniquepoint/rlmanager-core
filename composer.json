@@ -16,5 +16,6 @@
 			"name" : "Alex Torregrosa",
 			"email" : "alex@theuniquepoint.com"
 		}
-	]
+	],
+	"minimum-stability" : "dev"
 }
