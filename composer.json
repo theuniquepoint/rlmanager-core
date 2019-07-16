@@ -1,7 +1,14 @@
 {
 	"autoload" : {
 		"psr-4" : {
-			"Theuniquepoint\\Rlmanager-core\\" : "src"
+			"Theuniquepoint\\Rlmanager-core\\" : "src/"
+		}
+	},
+	"extra" : {
+		"laravel" : {
+			"providers" : [
+				"Theuniquepoint\\Rlmanager-core\\AuthenticatorServiceProvider"
+			]
 		}
 	},
 	"name" : "theuniquepoint/rlmanager-core",
