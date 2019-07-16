@@ -20,8 +20,8 @@ class AuthenticatorServiceProvider extends ServiceProvider {
      * @return void
      */
     public function register() {
-        $this->app->make('Theuniquepoint\Authenticator\AuthenticatorController');
-        $this->loadViewsFrom(__DIR__.'/views', 'authenticator');
+        $this->app->make('Theuniquepoint\Authenticator\Http\Controllers\AuthenticatorController');
+        $this->loadViewsFrom(__DIR__.'/resources/views', 'login');
     }
 }
 
