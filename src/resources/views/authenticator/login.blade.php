@@ -1,12 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Rocket League Manager Core</title>
-</head>
-<body>
-	<h1 style="text-align:center">
-		Authenticator Package
-		<span style="font-weight:normal">Dummy Text</span>
-	</h1>
-</body>
-</html>
+@extends('layouts.guest')
+
+@section('title', 'Login')
+
+@section('sidebar')
+    @parent
+
+    <p>This is appended to the master sidebar.</p>
+@endsection
+
+@section('content')
+    <p>This is my body content.</p>
+@endsection
