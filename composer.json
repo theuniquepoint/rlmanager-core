@@ -4,13 +4,6 @@
 			"Theuniquepoint\\Rlmanager-core\\" : "src/"
 		}
 	},
-	"extra" : {
-		"laravel" : {
-			"providers" : [
-				"Theuniquepoint\\Authenticator\\AuthenticatorServiceProvider"
-			]
-		}
-	},
 	"name" : "theuniquepoint/rlmanager-core",
 	"type" : "project",
 	"description" : "Rocket League Manager Core",
