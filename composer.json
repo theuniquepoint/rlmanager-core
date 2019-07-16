@@ -9,8 +9,7 @@
 	"description" : "Rocket League Manager Core",
 	"license" : "GPL-3.0",
 	"require" : {
-		"php" : ">=7.2",
-		"laravel/laravel" : "~5.8"
+		"php" : ">=7.2"
 	},
 	"authors" : [{
 			"name" : "Alex Torregrosa",
