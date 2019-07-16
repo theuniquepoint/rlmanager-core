@@ -11,7 +11,7 @@ class AuthenticatorServiceProvider extends ServiceProvider {
      * @return void
      */
     public function boot() {
-        include __DIR__.'/routes.php';
+        include __DIR__.'/routes/AuthenticatorRoutes.php';
     }
     
     /**
